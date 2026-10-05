@@ -21,3 +21,31 @@
 
 }
 
+.labarre {
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 75px;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: nowrap;
+}
+
+
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-decoration: none;
+    letter-spacing: -0.02em;
+}
+
+.liens {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+}
