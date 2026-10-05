@@ -1,0 +1,23 @@
+:root {
+  --couleur-saumon: #FFA590;
+  --creme: #FAF2EC ; 
+  --brun: #B09088 ;
+  --rose: #CDAFA3 ; 
+  --brun-fonce: #3B302D ; 
+}
+
+.hero { 
+    text-align: center ;
+    padding: 1.5rem ;
+    margin-bottom : 3 rem ; 
+    border-radius: 0.5 rem ;
+    box-shadow: 0.125rem , 25 rem rgba (0,0,0,.075) ;
+    background-color: var(#fdfdfd );
+    color:  var(--brun-fonce);
+
+    
+
+
+
+}
+
