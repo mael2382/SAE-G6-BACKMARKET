@@ -17,16 +17,19 @@
   --bg-color: var(--creme);
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
 }
 
 body {
   color: var(--text-color);
   background-color: var(--bg-color);
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
   line-height: 1.5;
 }
 
