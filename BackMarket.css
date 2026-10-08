@@ -1,3 +1,14 @@
+:root {
+  --couleur-saumon: #FFA590;
+  --creme: #FAF2EC ; 
+  --brun: #B09088 ;
+  --rose: #CDAFA3 ; 
+  --brun-fonce: #3B302D ; 
+}  
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -265,47 +276,6 @@ line-height: 1.25;
     color: #3b82f6;
 }
 
-
-
-
-
-
-
-@media (max-width: 960px) {
-    .labarre {
-        flex-direction: column;
-        height: auto;
-        padding: 16px;
-
-    }
-
-    .liens{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .recherche, .recherche:focus-within{
-        width: 100%;
-    }
-    
-    .imagecentrale{
-        height: 380px;
-    }
-
-    .Texte2 h1{
-        font-size: 1.6rem;
-    }
-
-    .Texte2 a{
-        font-size: 0.98rem;
-    }
-}
-
-:root {
-  --couleur-saumon: #FFA590;
-  --creme: #FAF2EC ; 
-  --brun: #B09088 ;
-  --rose: #CDAFA3 ; 
-  --brun-fonce: #3B302D ; 
-}
- 
+.haut-de-la-page {  
+  color:  pink ;
+} 

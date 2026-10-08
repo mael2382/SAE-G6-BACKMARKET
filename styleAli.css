@@ -1,32 +1,4 @@
-/* =========================
-   RESET
-========================= */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #222;
-    background-color: #fff;
-}
-
-
-/* =========================
-   NAVIGATION
-========================= */
-
-header {
-    background-color: #b8ca16;
-}
 
 .navbar {
     max-width: 1200px;
@@ -199,29 +171,3 @@ footer {
     color: white;
 }
 
-
-/* =========================
-   RESPONSIVE
-========================= */
-
-@media (max-width: 768px) {
-
-    .navbar {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .nav-links {
-        gap: 15px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .hero h1 {
-        font-size: 2.5rem;
-    }
-
-    .cards {
-        grid-template-columns: 1fr;
-    }
-}
