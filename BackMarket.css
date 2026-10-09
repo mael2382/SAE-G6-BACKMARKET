@@ -358,6 +358,159 @@ body {
   color: var(--couleur-saumon);
 }
 
+
+
+/* ==========================================================================
+   STYLES SPÉCIFIQUES : IMPACT ÉCOLOGIQUE & TABLEAU
+   ========================================================================== */
+
+/* En-tête de section principal */
+main section:first-child {
+  margin-bottom: 48px;
+  padding: 40px 32px;
+  background-color: rgba(250, 242, 236, 0.8); /* Fond crème très doux */
+  border: 1px solid rgba(205, 175, 163, 0.4); /* Bordure rose subtile */
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(59, 48, 45, 0.04); /* Ombre douce */
+}
+
+/* Espacement global des sections */
+main section {
+  margin-bottom: 56px;
+  padding: 0 10px;
+}
+
+main section h2 {
+  margin-bottom: 28px;
+  color: var(--brun-fonce);
+  font-family: 'Oswald', sans-serif;
+}
+
+/* --- CARTES D'IMPACT EN CHIFFRES --- */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.cards .card {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 32px 24px; /* Padding interne généreux */
+  margin: 0;
+  border: 1px solid rgba(205, 175, 163, 0.5); /* Bordure fluide */
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(59, 48, 45, 0.05); /* Transition d'ombre */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.cards .card:hover {
+  transform: translateY(-4px); /* Effet d'élévation fluide */
+  border-color: var(--couleur-saumon);
+  box-shadow: 0 10px 25px rgba(255, 165, 144, 0.18);
+}
+
+.cards .card h3 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--couleur-saumon);
+  margin-bottom: 12px;
+  line-height: 1.1;
+}
+
+.cards .card p {
+  color: var(--brun-fonce);
+  font-size: 0.98rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* --- TABLEAU COMPARATIF FLUIDE --- */
+.table-container {
+  overflow-x: auto;
+  border-radius: 16px;
+  border: 1px solid rgba(205, 175, 163, 0.5);
+  box-shadow: 0 4px 18px rgba(59, 48, 45, 0.04);
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background-color: #ffffff;
+}
+
+.table th, 
+.table td {
+  padding: 18px 24px; /* Marges internes confortables */
+  text-align: left;
+  border-bottom: 1px solid rgba(250, 242, 236, 0.9);
+}
+
+.table th {
+  background-color: var(--brun-fonce);
+  color: var(--creme);
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.table tr:last-child td {
+  border-bottom: none; /* Supprime la bordure de la dernière ligne */
+}
+
+.table tbody tr {
+  transition: background-color 0.2s ease;
+}
+
+.table tbody tr:hover {
+  background-color: rgba(250, 242, 236, 0.6); /* Survol doux sur la ligne */
+}
+
+/* Badges de statut dans le tableau */
+.badge {
+  display: inline-block;
+  padding: 8px 16px; /* Padding ajusté pour un effet pilule */
+  margin: 2px 0;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+.badge.bg-success {
+  background-color: rgba(255, 165, 144, 0.2); /* Fond léger */
+  color: var(--brun-fonce);
+  border: 1px solid var(--couleur-saumon);
+}
+
+.badge.bg-danger {
+  background-color: rgba(176, 144, 136, 0.15);
+  color: var(--brun-fonce);
+  border: 1px solid var(--rose);
+}
+
+/* Conteneur de l'image */
+.conteneur-image {
+  width: 100%;
+  max-width: 800px; /* Taille maximale souhaitée pour l'image */
+  margin: 30px auto; /* Centre l'image horizontalement et ajoute de la marge haut/bas */
+  border-radius: 16px; /* Coins arrondis fluides */
+  overflow: hidden; /* Empêche l'image de dépasser des coins arrondis */
+  border: 1px solid rgba(205, 175, 163, 0.5); /* Bordure rose douce */
+  box-shadow: 0 4px 20px rgba(59, 48, 45, 0.08); /* Ombre légère */
+}
+
+/* Rendre l'image réactive et non déformée */
+.conteneur-image img {
+  width: 100%;
+  height: auto;
+  display: block; /* Supprime le petit espace blanc sous l'image */
+  object-fit: cover; /* S'assure que l'image remplit proprement son cadre sans être étirée */
+} 
+
 /* ==========================================================================
    7. PIED DE PAGE (FOOTER)
    ========================================================================== */
