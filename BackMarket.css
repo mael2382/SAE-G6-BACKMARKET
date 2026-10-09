@@ -492,24 +492,57 @@ main section h2 {
   border: 1px solid var(--rose);
 }
 
-/* Conteneur de l'image */
-.conteneur-image {
-  width: 100%;
-  max-width: 800px; /* Taille maximale souhaitée pour l'image */
-  margin: 30px auto; /* Centre l'image horizontalement et ajoute de la marge haut/bas */
-  border-radius: 16px; /* Coins arrondis fluides */
-  overflow: hidden; /* Empêche l'image de dépasser des coins arrondis */
-  border: 1px solid rgba(205, 175, 163, 0.5); /* Bordure rose douce */
-  box-shadow: 0 4px 20px rgba(59, 48, 45, 0.08); /* Ombre légère */
+/* Section globale du graphique */
+.section-graphique {
+  margin-bottom: 56px;
+  text-align: center;
 }
 
-/* Rendre l'image réactive et non déformée */
-.conteneur-image img {
+.section-graphique h2 {
+  color: var(--brun-fonce);
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 24px;
+}
+
+/* Carte flottante sans bordure */
+.conteneur-graphique {
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  
+  /* Retrait total de bordure */
+  border: none; 
+  
+  /* Coins arrondis doux */
+  border-radius: 16px; 
+  
+  /* Ombre portée principale : effet carte flottante */
+  box-shadow: 0 10px 30px rgba(59, 48, 45, 0.08), 
+              0 2px 8px rgba(0, 0, 0, 0.04);
+              
+  /* Animation fluide au survol */
+  transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1), 
+              box-shadow 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* Effet au survol (la carte s'élève légèrement) */
+.conteneur-graphique:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(59, 48, 45, 0.12), 
+              0 6px 16px rgba(255, 165, 144, 0.2); /* Touche saumon très subtile dans l'ombre */
+}
+
+/* Image à l'intérieur */
+.conteneur-graphique img {
   width: 100%;
   height: auto;
-  display: block; /* Supprime le petit espace blanc sous l'image */
-  object-fit: cover; /* S'assure que l'image remplit proprement son cadre sans être étirée */
-} 
+  display: block;
+  border-radius: 12px;
+  object-fit: contain;
+}
 
 /* ==========================================================================
    7. PIED DE PAGE (FOOTER)
