@@ -162,17 +162,17 @@ body {
 /* Hero banner dynamique */
 .hero {
   min-height: 80vh;
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 40px 20px;
   background-color: var(--couleur-saumon);
-  color: #ffffff;
-}
+  }
 
 .hero-content {
-  max-width: 700px;
+  color: #ffffff;
+   max-width: 700px;
 }
 
 .hero h1 {
