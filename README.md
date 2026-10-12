@@ -2,22 +2,17 @@
 
 Ce project est créer pour présenté l'entreprise **Back Market** pour la SAE
 
-[Siteb du projet]**[cliquer sur le liens pour acceder au site web](https://mael2382.github.io/SAE-G6-BACKMARKET/index.html)**
+**[cliquer sur le liens pour acceder au site web](https://mael2382.github.io/SAE-G6-BACKMARKET/index.html)**
 
 ## Membres du groupe :
 
-Etudiant 1 (référent du groupe) :  [Faouz Noah ]
+Etudiant 1 (référent du groupe) :  [Faouz Noah ] Impact Écologique & Empreinte Numérique
 
-Etudiant 2 : [CORDIN Maël]  
+Etudiant 2 : [CORDIN Maël]  Accueil 
 
-Etudiant 3 : [DEMIROK Ali]  
+Etudiant 3 : [DEMIROK Ali]  Présentation
 
-Etudiant 4 : [EL MAGHNAOUY Wanis] 
-
----
-## Aperçu du project
-
-
+Etudiant 4 : [EL MAGHNAOUY Wanis] Analyse économique et financière
 
 --- 
 ## Technologie utiliser 
@@ -27,4 +22,14 @@ Etudiant 4 : [EL MAGHNAOUY Wanis]
 
 
 # Présentation du projet
+
+Dans le cadre de notre SAÉ, notre entreprise NMAW Industries a conçu et développé un site web multipage et personnalisé pour la plateforme Back Market.
+
+Ce projet vise à mettre en valeur le modèle économique du reconditionné à travers plusieurs axes clés :
+
+Une analyse stratégique et financière du marché de la seconde main et de son expansion.
+
+Un volet dédié à l'impact écologique et à l'empreinte numérique, mettant en lumière les économies de CO₂, de matières premières et d'eau réalisées par rapport à l'achat de produits neufs.
+
+Une identité visuelle soignée et cohérente, construite à partir d'une charte graphique sur-mesure pour offrir une expérience utilisateur fluide et professionnelle.
 
