@@ -1,6 +1,8 @@
 /* ==========================================================================
    1. VARIABLES & REINITIALISATION (RESET)
    ========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+
 
 :root {
   /* Palette de couleurs */
@@ -18,7 +20,6 @@
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
 
 * {
   margin: 0;
