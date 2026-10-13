@@ -14,6 +14,10 @@ Etudiant 3 : [DEMIROK Ali]  Présentation
 
 Etudiant 4 : [EL MAGHNAOUY Wanis] Analyse économique et financière
 
+Document commun BackMarket.css 
+<img width="1349" height="595" alt="image" src="https://github.com/user-attachments/assets/23cb9770-bb30-4654-a3af-9336d6a6e8f5" />
+
+
 --- 
 ## Technologie utiliser 
 
@@ -34,5 +38,4 @@ Un volet dédié à l'impact écologique et à l'empreinte numérique, mettant e
 Une identité visuelle soignée et cohérente, construite à partir d'une charte graphique sur-mesure pour offrir une expérience utilisateur fluide et professionnelle.
 
 
-<img width="250" height="280" alt="image" src="https://github.com/user-attachments/assets/9abf2a45-05de-4638-bcb2-627705efa930" />
 
