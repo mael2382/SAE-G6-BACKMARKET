@@ -52,7 +52,7 @@ body {
 }
 
 /* Barre de navigation */
-.headerMael {
+.header {
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -64,8 +64,8 @@ body {
 }
 
 /* Barre de navigation */
-.labarreMael, 
-.navbarMael {
+.labarre, 
+.navbar {
   max-width: 1300px;
   margin: 0 auto;
   height: 75px;
@@ -79,8 +79,8 @@ body {
 
 
 /* Liens de navigation */
-.liensMael, 
-.nav-linksMael {
+.liens, 
+.nav-link {
   display: flex;
   align-items: center;
   gap: 15px;
@@ -88,8 +88,8 @@ body {
   list-style: none;
 }
 
-.lienMael, 
-.nav-linksMael a {
+.lien, 
+.nav-links a {
   text-decoration: none;
   color: var(--brun-fonce);
   font-size: 0.92rem;
@@ -99,14 +99,14 @@ body {
   transition: all 0.2s ease;
 }
 
-.lienMael:hover, 
-.nav-linksMael a:hover {
+.lien:hover, 
+.nav-links a:hover {
   background-color: var(--rose);
   color: #ffffff;
 }
 
 /* Champ de recherche */
-.rechercheMael {
+.recherche {
   position: relative;
   display: flex;
   align-items: center;
@@ -118,14 +118,14 @@ body {
   transition: all 0.2s ease;
 }
 
-.rechercheMael:focus-within {
+.recherche:focus-within {
   background-color: #ffffff;
   border-color: var(--couleur-saumon);
   box-shadow: 0 0 0 3px rgba(255, 165, 144, 0.3);
   width: 260px;
 }
 
-.rechercheMael input[type="search"] {
+.recherche input[type="search"] {
   border: none;
   outline: none;
   background: transparent;
@@ -135,12 +135,12 @@ body {
   padding-right: 30px;
 }
 
-.rechercheMael input[type="search"]::placeholder {
+.recherche input[type="search"]::placeholder {
   color: var(--brun);
   font-style: italic;
 }
 
-.rechercheMael label {
+.recherche label {
   position: absolute;
   right: 10px;
   display: flex;
@@ -148,7 +148,7 @@ body {
   cursor: pointer;
 }
 
-.icon-loupeMael {
+.icon-loupe {
   width: 18px;
   height: 18px;
   object-fit: contain;
