@@ -396,8 +396,6 @@ line-height: 1.25;
     transition: all 0.2s ease;
 }
 
-
-
 /* ==========================================================================
    4. BOUTONS & SECTIONS GENERALES
    ========================================================================== */
@@ -435,6 +433,197 @@ line-height: 1.25;
 .section > p {
   max-width: 700px;
   margin: 0 auto;
+}
+
+
+/* ==========================================================================
+   3.Page Présentation 
+   ========================================================================== */
+
+/*Texte*/
+.TexteAli{
+    flex: 1;
+    min-width: 0;
+    padding: 0px 15px 15px 15px;
+    border-radius: 24px;
+    border: 1px solid #e5e7eb; 
+}
+
+
+/*Grande Partie 1 et 4*/
+.Partie1Ali, 
+.Partie4Ali {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: min(100% - 40px, 1300px);
+    margin: 40px auto;
+}
+
+/*Les titres*/
+.TitreAli {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 0 16px;
+    padding: 5px;
+    background: var(--brun);
+    border-radius: 24px;
+    border: 1px solid #e5e7eb;
+    font-size: large;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+}
+
+.TexteAli1Ali {
+    min-width: 0;
+    padding: 12px 16px;
+    overflow-wrap: anywhere;
+}
+
+
+/* les images*/
+.image1Ali img,
+.imageAli img {
+    width: 40%;
+    object-fit: cover;
+}
+
+.image1Ali img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 0;
+    border-radius: 23px 23px 0 0;
+}
+.imageAli img {
+    width: 40%;
+    height: auto;
+    min-width: 0;
+    padding: 0;
+    border-radius: 24px;
+    object-fit: cover;
+}
+
+/*sous le texte de l'idée général*/
+.SousTirte1Ali,
+.SousTirte2Ali {
+    flex: 1;
+    min-width: 0;
+    margin-top: 0;
+    padding: 0px 15px 15px 15px;
+
+    border-radius: 24px;
+    border: 1px solid #e5e7eb;
+    background: var(--rose);
+}
+
+/* Structurations des images dans les box*/
+.image1Ali {
+    height: 150px;
+    margin-top: 0;
+}
+
+.imagesAli{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.image1Ali,
+.imageAli {
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    align-items: stretch;
+    gap: 24px;
+
+}
+
+/*Les petites box*/
+.structureAli{
+    width: 100%;
+    min-width: 0;
+    min-height: 250px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: var(--couleur-saumon);
+    border-radius: 24px;
+    border: 1px solid #e5e7eb;
+}
+
+.structureAli:hover{
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    transform: scale(1.02) translateY(-2px);
+    transition: all 0.2s ease;
+}
+
+.ButALIAli{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    align-items: stretch;
+    
+}
+
+.ButAli{   
+    padding: 5px;
+    background: var(--couleur-saumon);
+    border-radius: 24px;
+    border: 1px solid #e5e7eb;
+
+}
+
+.ButAli:hover{   
+   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    transform: scale(1.02) translateY(-2px);
+    transition: all 0.2s ease;
+
+}
+
+/*sous le texte de l'idée général*/
+.soustitre4Ali{
+    padding: 24px;
+    background: #ffffff;
+    border-radius: 24px;
+    border: 1px solid #e5e7eb;
+
+}
+
+
+
+
+@media (max-width: 640px) {
+    .imagesAli {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .imageAli {
+        flex-direction: column;
+    }
+
+    .imageAli img {
+        width: 100%;
+        height: 220px;
+        flex: none;
+    }
+
+    .image1Ali img,
+    .image2Ali img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+    .imagesAli {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }
 
 /* ==========================================================================
