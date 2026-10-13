@@ -13,6 +13,8 @@ Etudiant 1 (référent du groupe) :  [Faouz Noah ] Impact Écologique & Empreint
 Etudiant 2 : [CORDIN Maël]  Accueil 
 
 Etudiant 3 : [DEMIROK Ali]  Présentation
+<img width="802" height="595" alt="image" src="https://github.com/user-attachments/assets/0f56ed68-6367-462d-a269-6a79292be70d" />
+
 
 Etudiant 4 : [EL MAGHNAOUY Wanis] Analyse économique et financière
 
