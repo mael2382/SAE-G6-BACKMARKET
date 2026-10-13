@@ -8,17 +8,24 @@ Ce project est créer pour présenté l'entreprise **Back Market** pour la SAE
 
 Etudiant 1 (référent du groupe) :  [Faouz Noah ] Impact Écologique & Empreinte Numérique
 <img width="1313" height="569" alt="image" src="https://github.com/user-attachments/assets/eec756da-2e68-498f-9b97-035f24f9bf21" />
+<img width="1157" height="665" alt="image" src="https://github.com/user-attachments/assets/70891931-2fee-4b68-b3eb-0f2686a6e284" />
+
 
 
 Etudiant 2 : [CORDIN Maël]  Accueil 
 
+<img width="1148" height="661" alt="image" src="https://github.com/user-attachments/assets/47a99e8e-150e-4a1d-a323-1e5111ba108e" />
+
+
 Etudiant 3 : [DEMIROK Ali]  Présentation
 <img width="802" height="595" alt="image" src="https://github.com/user-attachments/assets/0f56ed68-6367-462d-a269-6a79292be70d" />
+<img width="1158" height="901" alt="image" src="https://github.com/user-attachments/assets/ffa6cbfa-dc6e-499d-aaa1-88931a836cda" />
+
 
 
 Etudiant 4 : [EL MAGHNAOUY Wanis] Analyse économique et financière
 
-Document commun BackMarket.css 
+Document css  commun : BackMarket.css 
 <img width="1349" height="595" alt="image" src="https://github.com/user-attachments/assets/23cb9770-bb30-4654-a3af-9336d6a6e8f5" />
 
 
