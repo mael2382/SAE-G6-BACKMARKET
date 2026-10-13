@@ -33,3 +33,6 @@ Un volet dédié à l'impact écologique et à l'empreinte numérique, mettant e
 
 Une identité visuelle soignée et cohérente, construite à partir d'une charte graphique sur-mesure pour offrir une expérience utilisateur fluide et professionnelle.
 
+
+<img width="250" height="280" alt="image" src="https://github.com/user-attachments/assets/9abf2a45-05de-4638-bcb2-627705efa930" />
+
