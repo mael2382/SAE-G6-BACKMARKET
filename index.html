@@ -4,83 +4,266 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BackMarket - Etude et Analyse</title>
-    <link rel="icon" href="images/NMAW.png" type="image/x-icon" />
-    <link rel="stylesheet" href="BackMarket.css" />
+    <link rel="icon" href="img_mael/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styleMael.css" />
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+    <script src="script.js" defer></script>
+  
+
+
+    
 </head>
 <body>  
-    <header class="haut de la page">
+    <header class="hautMael deMael laMael pageMael">
         
-        <nav class="labarre">
+        <nav class="labarreMael">
         <!-- LOGO entreprise  -->
-            <img src="images/NMAW.png" alt="Logo de NMAW Industries" width="60">
+          <img src="images/NMAW.png" alt="Description de l'image" width="60px"> 
 
         <!-- BARRE DE NAVIGATION -->
             
-            <div class="liens">
-            <a href="index.html" class="lien">Accueil</a>
-            <a href="page_Ali.html" class="lien">Présentation</a>
-            <a href="pageWannis.html" class="lien">Analyse économique et financière</a>
-            <a href="page_Noah.html" class="lien">Impact économique et écologique</a>
+            <div class="liensMael">
+            <a href="index.html" class="lienMael">Accueil</a>
+            <a href="page_Ali.html" class="lienMael">Présentation</a>
+            <a href="pageWannis.html" class="lienMael">Analyse économique et financière</a>
+            <a href="page_Noah.html" class="lienMael">Impact économique et écologique</a>
             </div>
         
 
     
         <!-- BARRE DE RECHERCHE -->
-        <div class="recherche">
+        <div class="rechercheMael">
             <input type="search" id="search" name="search" placeholder="Information">
             <label for="search">
-                <img src="img_mael/Loupe.png" alt="Rechercher" class="icon-loupe">
+                <img src="img_mael/Loupe.png" alt="Rechercher" class="icon-loupeMael">
             </label>
         </div>
         </nav>
     </header>
 
-    <div class="imagecentrale"> <!-- hero-->
-        
-        <!-- IMAGE D'ARRETIER-PLAN -->
-        <img src="img_mael/Boutique.jpeg" alt="Arrière-plan" class="imgBack">  <!-- herobg-->
+    
+                                                             <!-- Hero Image-->
 
-        <div class="Texte">  <!-- hero overlay-->
-            <div class="Texte2">  <!-- hero text card-->
-            <h1>Trouvez les meilleures offres reconditionnées</h1>  
-            <p>Des appareils comme neufs, jusqu'à 70% moins chers.</p>
+<section class="imagescentraleMael">
+   <div class="carrouselMael" data-carousel>
+    <div class="carousel-controlsMael">
+      <button class="carousel-btnMael prevMael" data-carousel-button="prev" type="button" aria-label="Précédent">
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="carousel-iconMael">
+          <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+        </svg>
+      </button>
+      <button class="carousel-btnMael nextMael" data-carousel-button="next" type="button" aria-label="Suivant">
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="carousel-iconMael">
+          <path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/>
+        </svg>
+      </button>
+    </div>
+   
+    <ul data-slides>
+    <li class="slideMael" data-active>
+      <img src="15.jpeg" alt="Arrière-plan" class="imgBackMael">
+
+         <div class="TexteMael">
+                <div class="Texte2Mael"> 
+                <h1>Trouvez les meilleures offres reconditionnées</h1>  
+                <p>Des appareils comme neufs, jusqu'à 70% moins chers.</p>
+                </div>
+            </div>
+    </li>
+    <li class="slideMael">
+      <img src="15.jpeg" alt="Arrière-plan" class="imgBackMael">
+
+         <div class="TexteMael">
+                <div class="Texte2Mael"> 
+                <h1>Trouvez les meilleures offres reconditionnées</h1>  
+                <p>Des appareils comme neufs, jusqu'à chers.</p>
+                </div>
+            </div>
+    </li>
+    <li class="slideMael">
+      <img src="fleur.jpeg" alt="Arrière-plan" class="imgBackMael">
+         
+        <div class="TexteMael">
+                <div class="Texte2Mael"> 
+                <h1>Trouvez les meilleures offres reconditionnées</h1>  
+                <p>Des appareils comme neufs, jusqu'à 70% moins chers.</p>
+                </div>
+            </div>
+    </li>
+    </ul>
+   </div>
+  </section>
+    
+
+ 
+                                                             <!-- Sources-->
+
+
+   
+   <div class="SourceMael">
+        <a class="SourcesMael" href=""><h4>Source</h4></a>
+    </div> 
+    
+   
+   
+                                                             <!-- Infos Rapides-->
+   
+   
+    <section class="presentationMael">
+        <div class="introMael">
+            <div class="intro-textMael">
+                <h2>Intro</h2>
             </div>
         </div>
-    </div>
+    </section>
+   
+    <section class="inforap-conteneurMael">
+        
+        <article class="inforapMael">
+            <div class="Titre-rapPréMael">
+                <h3>Présentation</h3>
+            </div>
+            <div class="Texte-rapPréMael">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br> 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br> 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div>
+                <a href="page_Ali.html" class="lienMael">En savoir plus</a>
+            </div>
+        </article>
+        <article class="inforapMael">
+             <div class="Titre-rapAnalyseMael">
+                <h3>Analyse économique et financière</h3>
+            </div>
+            <div class="Texte-rapAnalyseMael">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br> 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br> 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div>
+                <a href="pageWannis.html" class="lienMael">En savoir plus</a>
+            </div>
+        </article>
+        <article class="inforapMael">
+             <div class="Titre-rapImpactMael">
+                <h3>Impact économique et écologique</h3>
+            </div>
+            <div class="Texte-rapImpactMael">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br> 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br> 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div>
+                <a href="page_Noah.html" class="lienMael">En savoir plus</a>
+            </div>
+        </article>
+    </section>
+    
+   
+   
+                                                             <!-- Le projet -->
+    <section class="Projet_Analyse_InformatiqueMael">
+        <article class= "Projet-TitreMael">
+            <h3>Présentation du projet  :</h3>
+        </article>
+        <article class="Projet-listMael">
+            <ul class="listMael">
+                <li>
+                    <strong>Nom du projet :</strong> Analyse et étude de l'entreprise BackMarket.
+                    <a href="page_BackMarket.html"target="_blank">Site de l'entreprise</a> <br> <br>
+                    <strong>Objectif :</strong> Réaliser une analyse économique et financière complète de l'entreprise BackMarket, en mettant en évidence ses forces, ses faiblesses, ses opportunités et ses menaces. <br> <br>
+                    <strong>Durée :</strong> 1 mois (du 1er janvier 2026 au 31 janvier 2026)
+                </li>
+        
 
-<section class="Sources">
-    <h2>Sources et Références</h2>
-    <ul class="list">
-        <li>
-            <strong>ADEME (2022):</strong> Etude de l'impact environnemental de l'évaluation du reconditionnement des équipements électriques et électroniques.
-        </li>
-        <li>
-           <strong>Etude FEVAD:</strong> Chiffre clés du e-commerce et de la seconde vie des produits en France.
-        </li>
-    </ul>
-</section>
+                <li>
+                    <strong>Équipe :</strong> Ali, Wannis, Noah et Mael <br> <br>
+                    <strong>Rôle :</strong> Chaque membre de l'équipe a contribué à l'analyse et à l'étude de l'entreprise BackMarket, en se concentrant sur différents aspects tels que l'analyse financière, l'impact économique et écologique, et la présentation générale de l'entreprise. <br>
+                    <ul class="AdresseMAILMael">
+                        <li><strong>Email :</strong> </li>
+                        <li><a href="noah.faouz@edu.univ-fcomte.fr" class="AdresseMAILMael1">Noah Faouz</a></li>
+                        <li><a href="mael.cordin@edu.univ-fcomte.fr"class="AdresseMAILMael1">Mael Cordin</a></li>
+                        <li><a href="wannis.el_maghnaouy@edu.univ-fcomte.fr"class="AdresseMAILMael1">Wannis El Maghnaouy</a></li>
+                        <li><a href="ali.demirok@edu.univ-fcomte.fr"class="AdresseMAILMael1">Ali Demirok</a></li>
+                    </ul>
+                </li>
+                </li>
+            </ul>
+        </article>
+    </section>
 
-<footer class="pieds">
-    <div class="pieds-div">
-        <div class="pieds-info">
-            <h3>Mentions légales et politique de confidentialité</h3>
-            <a >Mentions légales</a><br> 
-            <a >Politique de confidentialité</a>
+
+
+
+
+                                                             <!-- Pieds de page-->
+    <footer class="footerMael">
+    <article class="ContactMael">
+        
+        <div class="contactMael">
+            <h3>Contact :</h3>
+            <p>Pour toute question ou demande d'information, vous pouvez nous contacter :</p>
+            <p>Email : <a href="noah.faouz@edu.univ-fcomte.fr">Représentant du projet</a></p>
+            <p>Adresse : 19 Av. du Maréchal Juin, 90016 Belfort</p>
+            <p>Téléphone : +33 3 84 58 77 00</p>
         </div>
-    <div class="pieds-liens">
-        <h4>A propos </h4>
-        <a href="https://www.instagram.com/backmarket/" class="lien" target="_blank">Suivez-nous sur Intagram </a>
-        <a href="https://www.facebook.com/BackMarketCom/" class="lien" target="_blank">Suivez-nous sur Facebook </a>
-        <a  class="lien" target="_blank">Nous contacter</a>
-    </div>
-    <div class="pieds-legal">
-        <h4>Copyright et date de mise à jour</h4>
-        <p>2026 BackMarket site internet · Dernière mise à jour : 12 octobre 2026</p>
-    </div>
-    </div>
+    </article>    
 
+    <article class="ReseauxMael"> 
+        <div class="reseauxMael">
+            <h3>Réseaux sociaux :</h3>
+            <p>Suivez-nous sur les réseaux sociaux pour rester informé des dernières actualités :</p>
+            <ul class="listMael">
+                <li>
+                    <iconify-icon icon="fa6-brands:facebook"></iconify-icon>   
+                    <a href="https://www.facebook.com/backmarket" target="_blank">Facebook</a>
+                </li>
+                <li>
+                    <iconify-icon icon="fa6-brands:x-twitter"></iconify-icon>
+                    <a href="https://www.twitter.com/backmarket" target="_blank">Twitter</a>
+                </li>
+                <li>
+                    <iconify-icon icon="fa6-brands:instagram"></iconify-icon>
+                    <a href="https://www.instagram.com/backmarket" target="_blank">Instagram</a>
+                </li>
+            </ul>
+        </div>
+    </article>
 
-
+    <article class="mentions_politiqueMael">
+        <div class="mentionsMael">
+            <h3>Mentions légales :</h3>
+            <p>Le site BackMarket est édité par la société BackMarket SAS, immatriculée au RCS de Paris sous le numéro 123 456 789, dont le siège social est situé au 123 Rue de Paris, 75000 Paris, France.</p>
+        </div>
+        
+        
+        <div class="politiqueMael">
+            <h3>Politique de confidentialité :</h3>
+            <p>Nous attachons une grande importance à la protection de vos données personnelles. Pour en savoir plus sur la manière dont nous collectons, utilisons et protégeons vos informations, veuillez consulter notre <a href="politique_confidentialite.html">Politique de confidentialité</a>.</p>
+        </div>
+    </article>
+    
+    
+    <article class="copyright_miseMael">
+        <div class="copyrightMael">
+            <h3>Copyright :</h3>
+            <p>© 2026 Projet d'Analyse Informatique - Tous droits réservés.</p>
+        </div>
+        
+        
+        <div class="mise_a_jourMael">
+            <h3>Mise à jour :</h3>
+            <p>Dernière mise à jour : 1er janvier 2026</p>
+        </div>
+    </article>
+    
 </footer>
 
 </body>
