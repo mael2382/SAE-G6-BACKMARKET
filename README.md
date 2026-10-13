@@ -7,6 +7,8 @@ Ce project est créer pour présenté l'entreprise **Back Market** pour la SAE
 ## Membres du groupe :
 
 Etudiant 1 (référent du groupe) :  [Faouz Noah ] Impact Écologique & Empreinte Numérique
+<img width="1313" height="569" alt="image" src="https://github.com/user-attachments/assets/eec756da-2e68-498f-9b97-035f24f9bf21" />
+
 
 Etudiant 2 : [CORDIN Maël]  Accueil 
 
