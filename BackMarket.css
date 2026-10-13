@@ -64,21 +64,6 @@ body {
   flex-wrap: nowrap;
 }
 
-/* Logo */
-.logo {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #000000;
-  text-decoration: none;
-  letter-spacing: -0.02em;
-  width: 90px;
-  height: 30px;
-  display: flex;
-}
-
-.logo2 {
-  color: var(#000000);
-}
 
 /* Liens de navigation */
 .liens, 
