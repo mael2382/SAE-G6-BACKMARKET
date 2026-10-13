@@ -712,62 +712,47 @@ main section h2 {
    7. PIED DE PAGE (FOOTER)
    ========================================================================== */
 
-footer, 
-.pieds {
-  background-color: var(--brun-fonce);
-  color: var(--creme);
-  padding: 50px 0 30px 0;
-  margin-top: 60px;
-  text-align: center;
+.footerMael {
+    position:relative;
+    width: 100%;
+    margin:50px 0 0 0;
+    margin-bottom: 0px;
+    height: auto;
+    padding: 24px;
+    background: var(--brun-fonce);
+    border: 1px solid #e5e7eb;
+    display: flex;
+    flex-direction:row ;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: white;
 }
 
-.pieds-div {
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 0 24px;
-  display: flex;
-  justify-content: space-between;
-  gap: 40px;
-  flex-wrap: wrap;
-  text-align: left;
+.footerMael a{
+    text-decoration: none;
+    color: var(--rose);
+    font-size: 0.92rem;
+    font-weight: 500;
+    padding: 2px 0px;
+    border-radius: 8px;
+    transition: all 0.2s ease;
 }
 
-.pieds-info, 
-.pieds-liens, 
-.pieds-legal {
-  flex: 1;
-  min-width: 220px;
+.footerMael a:hover{
+    background-color: #e5e7eb;
+    color: #111827;
 }
 
-.pieds h3 {
-  font-size: 1.2rem;
-  margin-bottom: 12px;
-  color: #ffffff;
-}
+.listMael{
+    list-style-type: none;
+    padding: 0;
 
-.pieds h4 {
-  font-size: 1rem;
-  margin-bottom: 12px;
-  color: var(--rose);
-}
-
-.pieds p {
-  color: var(--rose);
-  font-size: 0.88rem;
-  line-height: 1.5;  
-}
-
-.pieds-liens a {
-  display: block;
-  color: var(--creme);
-  text-decoration: none;
-  font-size: 0.9rem;
-  margin-bottom: 8px;
-  transition: color 0.2s ease;
-}
-
-.pieds-liens a:hover {
-  color: var(--couleur-saumon);
+    display: flex;
+    gap: 16px;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 /* ==========================================================================
