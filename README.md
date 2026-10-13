@@ -13,7 +13,7 @@ Etudiant 1 (référent du groupe) :  [Faouz Noah ] Impact Écologique & Empreint
 
 
 Etudiant 2 : [CORDIN Maël]  Accueil 
-
+<img width="1874" height="613" alt="image" src="https://github.com/user-attachments/assets/08aa78d4-d0d1-4684-9036-0db2cf3c5089" />
 <img width="1148" height="661" alt="image" src="https://github.com/user-attachments/assets/47a99e8e-150e-4a1d-a323-1e5111ba108e" />
 
 
