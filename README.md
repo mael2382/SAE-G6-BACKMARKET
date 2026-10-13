@@ -7,12 +7,18 @@ Ce project est créer pour présenté l'entreprise **Back Market** pour la SAE
 ## Membres du groupe :
 
 Etudiant 1 (référent du groupe) :  [Faouz Noah ] Impact Écologique & Empreinte Numérique
+<img width="1313" height="569" alt="image" src="https://github.com/user-attachments/assets/eec756da-2e68-498f-9b97-035f24f9bf21" />
+
 
 Etudiant 2 : [CORDIN Maël]  Accueil 
 
 Etudiant 3 : [DEMIROK Ali]  Présentation
 
 Etudiant 4 : [EL MAGHNAOUY Wanis] Analyse économique et financière
+
+Document commun BackMarket.css 
+<img width="1349" height="595" alt="image" src="https://github.com/user-attachments/assets/23cb9770-bb30-4654-a3af-9336d6a6e8f5" />
+
 
 --- 
 ## Technologie utiliser 
@@ -32,4 +38,6 @@ Une analyse stratégique et financière du marché de la seconde main et de son 
 Un volet dédié à l'impact écologique et à l'empreinte numérique, mettant en lumière les économies de CO₂, de matières premières et d'eau réalisées par rapport à l'achat de produits neufs.
 
 Une identité visuelle soignée et cohérente, construite à partir d'une charte graphique sur-mesure pour offrir une expérience utilisateur fluide et professionnelle.
+
+
 
